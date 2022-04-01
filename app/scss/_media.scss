@@ -1,0 +1,259 @@
+@media (max-width:1200px) {
+    .propose {
+        height: auto;
+        justify-content: center;
+    }
+}
+@media (max-width:1076px) {
+.header-main{
+    .logo{
+        margin-bottom: 10px;
+    }
+    padding: 0 10px;
+  }
+
+.header {
+    margin-bottom: 20px;
+  }
+
+  .recent__search-input {
+    width: auto;
+}
+
+}
+
+@media (max-width:900px) {
+    .post .container {
+        flex-wrap: wrap;
+      }
+
+    .top-post__inner{
+        flex-wrap: wrap;
+    }
+    .top-post__img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .top-post .post__content {
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .post__inner{
+        padding: 0 10px;
+    }
+    .tags-list {
+        gap: 10px;
+        margin-left: 10px;
+    }
+    .team-contact {
+        gap: 5px;
+    }
+}
+
+@media (max-width:810px) {
+    .mobile-menu{
+        display: flex;
+        height: 30px;
+        margin-right: 10px;
+        position: relative;
+        &::after,
+        &::before{
+            content: "";
+            width: 25px;
+            height: 2px;
+            position: absolute;
+            background-color: #22252e;
+            left: 0;
+            transition: all 0.3s;
+        }
+        &::after{
+            top: 20px;
+        }
+        &::before{
+            top: 10px;
+        }
+    }
+    .mobile-menu.active span{
+        opacity: 0;
+    }
+
+    .mobile-menu.active::before {
+        transform: rotate(35deg);
+        top: 5px;
+    }
+    .mobile-menu.active::after {
+        transform: rotate(-35deg);
+        top:5px;
+    }
+
+    .mobile-menu span{
+        width: 25px;
+        background-color: #22252e;
+        height: 2px;
+    }
+
+    .header-main{
+        position: relative;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: center;
+        background-color: #22252e;
+        padding: 30px;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+    }
+    .menu.active{
+        transform: translateX(0);
+    }
+    .menu-list{
+        display: block;
+    }
+    .menu,
+    .menu-list,
+    .menu-list__item,
+    .menu-list__item-link{
+        width: 100%;
+    }
+    .menu-list__item{
+        margin-bottom: 20px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        color: #ffff;
+        font-size: 18px;
+    }
+    .menu-list__item-link{
+        display: block;
+    }
+
+    .tags{
+        display: none;
+    }
+
+    .recent__right {
+        padding-left: 30px;
+    }
+    .recent__posts-inner {
+        padding-right: 30px;
+    }
+    .recent__right-title {
+        gap: 5px;
+    }
+    .recent__search-input {
+       width: 220px;
+    }
+
+    .ways-pay {
+        justify-content: center;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .about__text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .footer__inner {
+        gap: 30px;
+    }
+    .learn{
+        order: 1;
+    }
+    .isp{
+        order: 2;
+    }
+    .header-top__list {
+        gap: 15px;
+    }
+    .log{
+        display: none;
+    }
+    .top-post__inner{
+        gap: 30px;
+    }
+    .recent__inner {
+        flex-wrap: wrap;
+    }
+    .post__img {
+        object-fit: cover;
+        width: 100%;
+    }
+    .recent__posts-inner{
+        margin-bottom: 40px;
+        padding-right: 0;
+        border-right: 0;
+    }
+    .recent__search-input {
+        width: 100%;
+     }
+    .sign-up__links a{
+        display: block;
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+    .sign-up__links-redem::after, .sign-up__links-anonimus::after {
+        right: 10px;
+    }
+    .footer {
+        padding-bottom: 49px;
+    }
+    .recent__right {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .logo-img{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+    }
+}
+
+@media (max-width:400px) {
+    
+    .propose__item {
+        max-width: 315px;
+        padding-left: 60px;
+        padding-right: 60px;
+        &:hover{
+            border: 4px solid #ff8d00;
+        }
+    }
+    .started{
+        min-width: 140px;
+    }
+    .propose {
+        margin-bottom: 20px;
+    }
+    .propose__item-period {
+        margin-bottom: 17px;
+    }
+    .propose__item-price {
+        margin-bottom: 10px;
+    }
+    .first-propouse {
+        margin-bottom: 16px;
+    }
+
+    .ways-pay__text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+    .custom-buttons{
+        margin-left: auto;
+        }
+}
+
+
