@@ -57,6 +57,7 @@
         height: 30px;
         margin-right: 10px;
         position: relative;
+        cursor: pointer;
         &::after,
         &::before{
             content: "";
